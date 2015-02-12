@@ -1,81 +1,40 @@
+Console.Write("\tEnter Num 1  : ");
+			string Num1 = Console.ReadLine();
+			Console.Clear();
+			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : ");
+			string Num2 = Console.ReadLine();
+			Console.Write("\tEnter Num 3  : ");
+			string Num3 = Console.ReadLine();
+			Console.Clear();
+			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
+			"\tEnter Num 4  : ");
+			string Num4 = Console.ReadLine ();
+			Console.Write("\tEnter Num 5  : ");
+			string Num5 = Console.ReadLine();
+			Console.Clear();
+			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
+			"\tEnter Num 4  : "+Num4+("\n")+"\tEnter Num 5  : "+Num5+"\tEnter Num 6  : ");
+			string Num6 = Console.ReadLine ();
 
-using System;
+			Console.Write("\tEnter Num 7  : ");
+			string Num7 = Console.ReadLine();
+			Console.Clear();
+			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
+			"\tEnter Num 4  : "+Num4+("\n")+"\tEnter Num 5  : "+Num5+"\tEnter Num 6  : "+Num6+("\n")+"\tEnter Num 7  : "
+			+Num7+"\tEnter Num 8  : ");
+			string Num8 = Console.ReadLine ();
 
-namespace LAB_03_575412040595
-{
-	class MainClass
-	{
-		public static void Main (string[] args)
-		{
+			Console.Write("\tEnter Num 9  : ");
+			string Num9 = Console.ReadLine();
+			Console.Clear();
+			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
+			"\tEnter Num 4  : "+Num4+("\n")+"\tEnter Num 5  : "+Num5+"\tEnter Num 6  : "+Num6+("\n")+"\tEnter Num 7  : "
+			+Num7+"\tEnter Num 8  : "+Num8+("\n")+"\tEnter Num 9  : "
+			+Num9+"\tEnter Num 10 : ");
+			string Num10 = Console.ReadLine ();
 
-		//	int num = int.Parse (Console.ReadLine());
-			//int num;
-			const double pi = 3.14d;
-			int zigma1;
-			const byte A=2;
-			const byte B=3;
-			const byte C=4;
-			const byte D=5;
-			const byte F=5;
-			int Bsquare;
-			int Asquare;
-			int Csquare;
-			int Zone1;
-			double Zone2;
-			int Zone3;
-			double Zone4;
-			double Zone5;
-			double Answers1;
-			double Answers2;
-			double Sum;
-			/*num = Convert.ToInt32 (Console.ReadLine());
-			Console.Write ("Input A =");
-			A = Convert.ToByte (Console.ReadLine ());
-			Console.Write ("Input B =");
-			B = Convert.ToByte (Console.ReadLine ());
-			Console.Write ("Input C =");
-			C = Convert.ToByte (Console.ReadLine ());
-			Console.Write ("Input D =");
-			D = Convert.ToByte (Console.ReadLine ());
-			Console.Write ("Input E =");
-			E = Convert.ToByte (Console.ReadLine ());
-			Console.Write ("Input F =");
-			F = Convert.ToByte (Console.ReadLine ());
-            */
-			zigma1 =( 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 + 31 + 32 + 33 + 34 + 35 + 36 + 37 + 38 + 39 + 40 + 41 + 42 + 43 + 44 + 45 + 46 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55)*3;
-			Console.WriteLine ("(5+6+7+...+55) * 3 = "+zigma1);
-			Console.Write ("\n");
-
-			Bsquare = B * B;
-			Zone1 = (A * 5 * Bsquare) / 3;
-			Console.WriteLine ("A5B^2/3 = " + Zone1);
-			Console.Write ("\n");
-
-			Zone2 = ((5 * pi) % C) % 6;
-			Console.WriteLine ("5Pi % c % 6 = "+Zone2);
-			Console.Write ("\n");
-
-			Answers1 = Zone1 / Zone2;
-			Console.WriteLine("(A5B^2/3)/(5Pi % c % 6) = "+Answers1);
-			Console.Write ("\n");
-
-			Asquare = A * A * A * A;
-			Csquare = C * C * C ;
-
-			Zone3 = (Asquare * Csquare * F * 2 * B) + (B * D);
-			Console.WriteLine ("A^4c^3*F2B+BD = " + Zone3);
-			Console.Write ("\n");
-
-			Zone4 = (B * pi * A);
-			Zone5 =Zone4+((2*4*D)/(5 / 9d)*8);
-
-			Answers2 = Zone3 / Zone5;
-			Console.WriteLine (Answers2);
-			Console.Write ("\n");
-			Sum = (Answers1 + Answers2)*zigma1;
-			Console.WriteLine ("Sum = " + Sum);
-
-			//Console.WriteLine ("num"=num*5);
-		}
-	}
-}
+			Console.WriteLine ("Num 1 Num 2");
+			Console.WriteLine ("Num 3 Num 4");
+			Console.WriteLine ("Num 5 Num 6");
+			Console.WriteLine ("Num 7 Num 8");
+			Console.WriteLine ("Num 9 Num 10");
