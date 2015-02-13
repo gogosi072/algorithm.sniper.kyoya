@@ -1,76 +1,14 @@
-Console.Write("\tEnter Num 1  : ");
-			string Num1 = Console.ReadLine();
-			Console.Clear();
-			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : ");
-			string Num2 = Console.ReadLine();
-			Console.Write("\tEnter Num 3  : ");
-			string Num3 = Console.ReadLine();
-			Console.Clear();
-			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
-			"\tEnter Num 4  : ");
-			string Num4 = Console.ReadLine ();
-			Console.Write("\tEnter Num 5  : ");
-			string Num5 = Console.ReadLine();
-			Console.Clear();
-			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
-			"\tEnter Num 4  : "+Num4+("\n")+"\tEnter Num 5  : "+Num5+"\tEnter Num 6  : ");
-			string Num6 = Console.ReadLine ();
+Console.Write ("\u004E\u0061\u006D\u0065 \u0053\u0061\u0072\u0061\u0079\u0075\u0074");
+			Console.WriteLine ("\t\u0044\u0065\u0061\u006E\u0067\u0073\u0072\u0069");
+			Console.Write ("\u0042\u0069\u0072\u0074\u0068\u0064\u0061\u0079  \u0057\u0065\u0064\u006E\u0065\u0073\u0064\u0061\u0079  \u0053\u0065\u0070\u0074\u0065\u006D\u0062\u0065\u0072  ");
+			Console.WriteLine ("\u0039 \u0074\u0068\u002C \u0031\u0039\u0039\u0035");
+			Console.Write ("\u0041\u0064\u0064\u0072\u0065\u0073\u0073 \u0031\u0035\u0035\u002F\u0032\u0031");
+			Console.Write (" \u004D\u006F\u006F\u002E\u0032 \u0054\u0061\u006D\u0062\u006F\u006E\u002E\u0043\u0068\u0061\u006E\u0067\u0070\u0075\u0061\u006B");
+			Console.Write(" \u0041\u006D\u0070\u0068\u006F\u0065\u002E\u004D\u0075\u0061\u006E\u0067");
+			Console.Write (" \u0043\u0068\u0069\u0061\u006E\u0067\u006D\u0061\u0069 \u0050\u0072\u006F\u0076\u0069\u006E\u0063\u0065");
+			Console.WriteLine (" \u0035\u0030\u0033\u0030\u0030"); 
+			Console.Write ("\u0054\u0065\u006C\u0065\u0070\u0068\u006F\u006E\u0065 \u006E\u0075\u006D\u0062\u0065\u0072");
+			Console.WriteLine (" \u0030\u0038\u0034\u002D\u0037\u0034\u0031\u0034\u0031\u0037\u0037");
+			Console.Write ("\u0057\u0065\u006C\u006C \u0064\u006F\u006E\u0065 \u0069\u0073 \u0062\u0065\u0074\u0074\u0065\u0072 \u0074\u0068\u0061\u006E");
+			Console.Write (" \u0077\u0065\u006C\u006C \u0073\u0061\u0069\u0064\u002E");
 
-			Console.Write("\tEnter Num 7  : ");
-			string Num7 = Console.ReadLine();
-			Console.Clear();
-			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
-			"\tEnter Num 4  : "+Num4+("\n")+"\tEnter Num 5  : "+Num5+"\tEnter Num 6  : "+Num6+("\n")+"\tEnter Num 7  : "
-			+Num7+"\tEnter Num 8  : ");
-			string Num8 = Console.ReadLine ();
-
-			Console.Write("\tEnter Num 9  : ");
-			string Num9 = Console.ReadLine();
-			Console.Clear();
-			Console.Write("\tEnter Num 1  : "+Num1+"\tEnter Num 2  : "+Num2+("\n")+"\tEnter Num 3  : "+Num3+
-			"\tEnter Num 4  : "+Num4+("\n")+"\tEnter Num 5  : "+Num5+"\tEnter Num 6  : "+Num6+("\n")+"\tEnter Num 7  : "
-			+Num7+"\tEnter Num 8  : "+Num8+("\n")+"\tEnter Num 9  : "
-			+Num9+"\tEnter Num 10 : ");
-			string Num10 = Console.ReadLine ();
-			Console.Write ("\n");
-			Console.Write ("Num 1 Num 2\t"+Convert.ToInt32(Num1)*Convert.ToInt32(Num2));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num1) & Convert.ToInt32 (Num2));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num1) | Convert.ToInt32 (Num2));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num1) ^ Convert.ToInt32 (Num2));
-			Console.Write ("\n");
-			Console.Write ("Num 3 Num 4\t"+Convert.ToInt32(Num3)*Convert.ToInt32(Num4));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num3) & Convert.ToInt32 (Num4));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num3) | Convert.ToInt32 (Num4));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num3) ^ Convert.ToInt32 (Num4));
-			Console.Write ("\n");
-			Console.Write ("Num 5 Num 6\t"+Convert.ToInt32(Num5)*Convert.ToInt32(Num6));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num5) & Convert.ToInt32 (Num6));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num5) | Convert.ToInt32 (Num6));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num5) ^ Convert.ToInt32 (Num6));
-			Console.Write ("\n");
-			Console.Write ("Num 7 Num 8\t"+Convert.ToInt32(Num7)*Convert.ToInt32(Num8));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num7) & Convert.ToInt32 (Num8));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num7) | Convert.ToInt32 (Num8));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num7) ^ Convert.ToInt32 (Num8));
-			Console.Write ("\n");	
-			Console.Write ("Num 9 Num 10\t"+Convert.ToInt32(Num9)*Convert.ToInt32(Num10));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num9) & Convert.ToInt32 (Num10));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num9) | Convert.ToInt32 (Num10));
-			Console.Write ("\t");
-			Console.Write (Convert.ToInt32 (Num9) ^ Convert.ToInt32 (Num10));
-			Console.Write ("\n");
-				
